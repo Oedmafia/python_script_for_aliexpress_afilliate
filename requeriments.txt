@@ -1,0 +1,8 @@
+requests
+asyncio
+python-telegram-bot
+csv
+os
+time
+random
+json
