@@ -28,7 +28,6 @@ def download_image(image_url, image_id):
             f.write(response.content)
 
 # Função para envio da mensagem/imagem ao Telegram | Function for sending the message/image to Telegram
-
 async def send_image(bot, chat_id, image_id, product, original_price, sale_price, discount, discount_code, value_discount, rating, sales, link):
     # Chamada a API do Bitly para encurtar o link | Bitly API call to shorten the link
     short_link_response = requests.post(
